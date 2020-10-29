@@ -19,8 +19,12 @@ max-width: 100%;
 */
 
 #bakgrundsbild {
+background: url('images/image-1.png') no-repeat center center fixed;
+background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover; 
 display: flex;
-background-image: url('/images/image-1.png');
 width: 1770px;
 height: 820px;
 align-items: center;
@@ -158,7 +162,7 @@ max-width: 100%;
 */
   .bakgrundsbild-2 {
     display: flex;
-    background-image: url('/images/image-3.png');
+    background-image: url('images/image-3.png');
     width: 1770px;
     height: 685px;
     justify-content: center;
@@ -229,7 +233,7 @@ max-width: 100%;
         V
 */
 .bakgrundsbild-3 {
-    background-image: url('/images/image-4.png');
+    background-image: url('images/image-4.png');
     width: 1770px;
     height: 700px;
     justify-content: center;
@@ -269,7 +273,7 @@ max-width: 100%;
 */
 
 #bakgrundsbild-4 {
-  background-image: url('/images/image-5.png');
+  background-image: url('images/image-5.png');
   width: 1770px;
   height: 700px;
   justify-content: center;
@@ -291,7 +295,7 @@ max-width: 100%;
         V
 */
 
-.bakgrundsbild-5 {background-image: url('/images/image-6.png');
+.bakgrundsbild-5 {background-image: url('images/image-6.png');
   width: 1770px;
   height: 731px;
   max-width: 100%;
